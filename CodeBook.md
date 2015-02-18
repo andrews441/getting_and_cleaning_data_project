@@ -9,42 +9,46 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+tBodyAcc-XYZ  
+tGravityAcc-XYZ  
+tBodyAccJerk-XYZ  
+tBodyGyro-XYZ  
+tBodyGyroJerk-XYZ  
+tBodyAccMag  
+tGravityAccMag  
+tBodyAccJerkMag  
+tBodyGyroMag  
+tBodyGyroJerkMag  
+fBodyAcc-XYZ  
+fBodyAccJerk-XYZ  
+fBodyGyro-XYZ  
+fBodyAccMag  
+fBodyAccJerkMag  
+fBodyGyroMag  
+fBodyGyroJerkMag  
 
 The set of variables that were estimated from these signals are: 
 
 mean(): Mean value
 std(): Standard deviation
 
+There are 66 measurements in total. Each measurement is referenced by a subject and an activity.
+
 Finally, the mean value of the mean and standard deviation estimates were derived based on the grouping of the subject and the activity. 
 
 A full description is available at the site where the data was obtained: 
+
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 Here are the data for the project: 
+
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 Here is the transformation script used to clean the data:
+
 https://github.com/andrews441/getting_and_cleaning_data_project/blob/master/run_analysis.R
 
 This transformation script 
- - merged the training and test data sets, 
- - augmented the measurements by adding subject and descriptive value activity values,  
- - 
- - and finaly took the mean value of the measurements by grouping by subject and activity types.
+  - merged the training and test data sets, 
+  - augmented the measurements by adding subject and descriptive value activity values,   
+  - and finaly took the mean value of the measurements by grouping by subject and activity types.
