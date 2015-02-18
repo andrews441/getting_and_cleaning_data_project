@@ -29,7 +29,7 @@ fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
+mean(): Mean value  
 std(): Standard deviation
 
 There are 66 measurements in total. Each measurement is referenced by a subject and an activity.
