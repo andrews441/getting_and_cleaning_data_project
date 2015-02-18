@@ -32,7 +32,7 @@ The set of variables that were estimated from these signals are:
 mean(): Mean value  
 std(): Standard deviation
 
-There are 66 measurements in total. Each measurement is referenced by a subject and an activity.
+There are 66 measurements in total. Each measurement is referenced by a subject and an activity. (Frequency values from the original data set were chosen not to be included in these results.)
 
 Finally, the mean value of the mean and standard deviation estimates were derived based on the grouping of the subject and the activity. 
 
